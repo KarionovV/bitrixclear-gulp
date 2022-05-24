@@ -14,7 +14,7 @@ We use this template in IT-INFINITY company (https://itinfinity.ru).
 6. Config .settings.php in template root path.
 
 ## Use Gulp
-Move to /local/templates/your_template_name/src/ folder and run "gulp" in terminal.
+Move to /local/templates/your_template_name/src/ folder and run "mpm install", "gulp" in terminal.
 
 Use .../src/css/ folder for your sass files
 Use .../src/js/ folder for your js files
