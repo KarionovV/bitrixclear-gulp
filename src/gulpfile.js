@@ -35,7 +35,7 @@ let path = {
 const gulp = require('gulp');
 const plumber = require('gulp-plumber');
 const rigger = require('gulp-rigger');
-const sass = require('gulp-sass')(require('sass'));;
+const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
@@ -50,7 +50,7 @@ const concat = require('gulp-concat');
 gulp.task('css', function () {
     return gulp.src(path.src.style)
         .pipe(plumber())
-        .pipe(sass())
+        .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
             overrideBrowserslist: autoprefixerList
         }))
