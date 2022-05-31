@@ -1,5 +1,8 @@
 # Clear template for CMS Bitrix with Gulp
 
+
+See also Bitrix clear template without Gulp https://github.com/KarionovV/bitrixclear
+
 **update 23 may 2022**
 
 Clear site template for a CMS Bitrix. This template can help you crate a new project.
